@@ -15,5 +15,13 @@ Req:
 1. Tailwind as Style. Later maybe another CSS framework support
 2. jQuery 3.7
 
+How to Use:
 
+const userTable = new aarTables('tbl-user', { 
+        rowsPerPage: 5, 
+        visiblePages:5,
+        sortableColumns: [0, 1], 
+        searchable: true
+});
+    
 Feel free to use my table!
